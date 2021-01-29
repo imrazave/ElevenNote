@@ -63,6 +63,4 @@ namespace ElevenNote.Data
             HasKey(iur => iur.UserId);
         }
     }
-
-
 }
