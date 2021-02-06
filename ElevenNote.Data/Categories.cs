@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Data
 {
-    class Categories
+    public class Categories
     {
         [Key]
         public int Id { get; set; }
