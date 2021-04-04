@@ -14,9 +14,9 @@ namespace ElevenNote.Data
         [Key]
         public int NoteId { get; set; }
 
-        // Foreign Key
-        [ForeignKey(nameof(Category))]
-        public int Id { get; set; }
+        //// Foreign Key
+        //[ForeignKey(nameof(Category))]
+        //public int Id { get; set; }
 
         // Navigation Property
         public virtual Categories Category { get; set; }
